@@ -8,7 +8,7 @@ import java.util.List;
 
 // Controller untuk handle request user
 @RestController
-@RequestMapping("/users")
+@RequestMapping("api/users")
 public class UserController {
 
     private final UserService userService;
