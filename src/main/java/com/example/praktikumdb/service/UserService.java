@@ -21,5 +21,10 @@ public class UserService {
         request.setId(UUID.randomUUID().toString());
         return userRepository.save(request);
     }
+    
+    public List<User> getAllUsers(){
+        return userRepository.findAll();
+    }
+
 
 }
